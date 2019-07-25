@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .container
+    form.form-signin(role='form', action='/login', method='post', style='max-width: 300px')
+      h2.form-signin-heading logueate.
+      input.form-control(type='text', name='username', placeholder='Usuario', required, autofocus)
+      input.form-control(type='password', name='password', placeholder='Contraseña')
+      button.btn.btn-lg.btn-primary.btn-block(type='submit') LOGIN
