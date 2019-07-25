@@ -17,15 +17,20 @@ passport.use(new GoogleStrategy({
   clientSecret: configAuth.googleAuth.clientSecret,
   callbackURL: configAuth.googleAuth.callbackURL
 },
-function(request, accessToken, refreshToken, profile, done){
+function(accessToken, refreshToken, profile, done){
     console.log("ss")
     process.nextTick(function(){
       User.findOne({'google.id': profile.id}, function(err, user){
         if(err)
           return done(err);
-        if(user)
+        if(user && user.google.token==accessToken)
           return done(null, user);
         else {
+          if(user){
+            user.google.token = accessToken;
+            user.save();
+            return done(null, user);
+          }
           var newUser = new User();
           newUser.google.id = profile.id;
           newUser.google.token = accessToken;
