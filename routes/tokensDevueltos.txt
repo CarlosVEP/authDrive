@@ -1,0 +1,36 @@
+OAuth2Client {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token:
+       ya29.GmJQB0kegcv97uLvF8AN9WJORDgmzEYuFEuhWJN0AEx_NQjWg3Roi7vAcKzF6y5M9ry9EMsF7Jd6r5VAB0ZLNiKSVGS-UTKFJZy5rFXPj4tdpF2ncBYkmZM8413mADBiiUNIXA
+       ya29.GmJQB7QQ74MXfYOM1EaEHeJgOSdNmkC4z1LSi6kjLln-YQDFXo-lqCdiT9DmwJ_wS84nUVZJVuWzOpv1GhDyobVp9gvIlHPGS93RXwKpa6Oapj_LGLeIBj_L1-QXZa_BKVEZ6A
+       ya29.GmJQB7QQ74MXfYOM1EaEHeJgOSdNmkC4z1LSi6kjLln-YQDFXo-lqCdiT9DmwJ_wS84nUVZJVuWzOpv1GhDyobVp9gvIlHPGS93RXwKpa6Oapj_LGLeIBj_L1-QXZa_BKVEZ6A
+      'ya29.GmBPBz006hPZ9-zJPisGoLvwHFZlVyqO4eOQWUKGryeiSQF6Mq3ySaY8oy6hi5rldF7qMnuVdrC1XyCpjSTxQXBXmK420nM2oJHmbCCWZ7utWhvjhx2HDOsLf-2r-bQstxU' },
+  certificateCache: {},
+  certificateExpiry: null,
+  certificateCacheFormat: 'PEM',
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  eagerRefreshThresholdMillis: 300000 }
+
+  OAuth2Client {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token:
+      'ya29.GltPB8dtDU9TOZqCIBsl5NwTxv6uPfKbB4a_jmojmmZE4_99Jb4Emj7ByXwmx3mEfROz1H6WkLWaeoBykr3XBKr16-Al8mXrne84kxNbdYhjvKDvkHt3x6KtHpE5' },
+  certificateCache: {},
+  certificateExpiry: null,
+  certificateCacheFormat: 'PEM',
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  eagerRefreshThresholdMillis: 300000 }

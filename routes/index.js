@@ -80,9 +80,9 @@ router.get('/profile', isAuthenticated,(req,res,next) => {
           else if (req.query.file == "notupload") parseData.file = "notuploaded"
       }
       
-    console.log(req);
-    console.log("------------------------")
-    console.log(req.user);
+    // console.log(req);
+    // console.log("------------------------")
+    // console.log(req.user);
     res.render('profile', {user:req.user, parseData:parseData});
 });
 router.get('/auth/google', passport.authenticate('google',{scope: ['profile', 'email', 'https://www.googleapis.com/auth/drive.appdata', 'https://www.googleapis.com/auth/drive.file']}));
